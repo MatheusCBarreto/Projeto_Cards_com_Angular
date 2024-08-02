@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  
-  btnClicked() {
-    console.log("Clicou!!");
+
+  onCardButtonClicked() {
+    console.log("chamada HTTPS");
+    // aqui seria a chamada https
   }
 }
